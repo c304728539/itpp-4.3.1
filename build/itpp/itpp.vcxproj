@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E75927F5-BD53-419C-9B62-7592433C6272}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>itpp</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)\itpp\Debug_win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">itpp.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">itpp_debug_win32</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">itpp_debug_win64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)\itpp\Release_win32\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">itpp.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">itpp_rel_win32</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">itpp_rel_win64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\itpp-4.3.1\build\itpp\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">itpp.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">itpp</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">itpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\itpp-4.3.1\build\itpp\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">itpp.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">itpp</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">itpp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.dll</TargetExt>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\itpp\Debug_win64\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)\itpp\Release_win64\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\build;..\..;..\..\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\libfftw3-3_win32.lib;..\..\lib\lapack_win32_MTd.lib;..\..\lib\blas_win32_MTd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/itpp/Debug_win32/itpp_debug_win32.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(SolutionDir)/itpp/Debug_win32/itpp_degub_win32.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\build;..\..;..\..\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X64 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\libfftw3-3_win64.lib;..\..\lib\lapack_win64_MTd.lib;..\..\lib\blas_win64_MTd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/itpp/Debug_win64/itpp_debug_win64.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(TargetDir)/itpp_debug_win64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\build;..\..;..\..\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\libfftw3-3_win32.lib;..\..\lib\lapack_win32_MT.lib;..\..\lib\blas_win32_MT.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/itpp/Release_win32/itpp_rel_win32.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(TargetDir)/itpp_rel_win32.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir);..\..;..\..\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\libfftw3-3_win64.lib;..\..\lib\lapack_win64_MT.lib;..\..\lib\blas_win64_MT.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>$(SolutionDir)/itpp/Release_win64/itpp_rel_win64.lib</ImportLibrary>
+      <ProgramDataBaseFile>$(TargetDir)/itpp_rel_win64.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\itpp-4.3.1\lib\libfftw3-3_win32.lib;C:\itpp-4.3.1\lib\lapack_win32_MTd.lib;C:\itpp-4.3.1\lib\blas_win32_MTd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/itpp-4.3.1/build/itpp/MinSizeRel/itpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/itpp-4.3.1/build/itpp/MinSizeRel/itpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\itpp-4.3.1\lib\libfftw3-3_win32.lib;C:\itpp-4.3.1\lib\lapack_win32_MTd.lib;C:\itpp-4.3.1\lib\blas_win32_MTd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/itpp-4.3.1/build/itpp/MinSizeRel/itpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/itpp-4.3.1/build/itpp/MinSizeRel/itpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\itpp-4.3.1\lib\libfftw3-3_win32.lib;C:\itpp-4.3.1\lib\lapack_win32_MTd.lib;C:\itpp-4.3.1\lib\blas_win32_MTd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/itpp-4.3.1/build/itpp/RelWithDebInfo/itpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/itpp-4.3.1/build/itpp/RelWithDebInfo/itpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OpenMPSupport>true</OpenMPSupport>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";itpp_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\itpp-4.3.1\build;F:\itpp-4.3.1;C:\itpp-4.3.1\itpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;C:\itpp-4.3.1\lib\libfftw3-3_win32.lib;C:\itpp-4.3.1\lib\lapack_win32_MTd.lib;C:\itpp-4.3.1\lib\blas_win32_MTd.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/itpp-4.3.1/build/itpp/RelWithDebInfo/itpp.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/itpp-4.3.1/build/itpp/RelWithDebInfo/itpp.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\itpp-4.3.1\itpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/itpp-4.3.1/itpp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/itpp-4.3.1/itpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/itpp-4.3.1 -BF:/itpp-4.3.1/build --check-stamp-file F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/itpp-4.3.1 -BF:/itpp-4.3.1/build --check-stamp-file F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/itpp-4.3.1/itpp/CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:/itpp-4.3.1/itpp/CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/itpp-4.3.1/itpp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/itpp-4.3.1/itpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/itpp-4.3.1 -BF:/itpp-4.3.1/build --check-stamp-file F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/itpp-4.3.1 -BF:/itpp-4.3.1/build --check-stamp-file F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/itpp-4.3.1/itpp/CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:/itpp-4.3.1/itpp/CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule F:/itpp-4.3.1/itpp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/itpp-4.3.1/itpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/itpp-4.3.1 -BF:/itpp-4.3.1/build --check-stamp-file F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/itpp-4.3.1 -BF:/itpp-4.3.1/build --check-stamp-file F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:/itpp-4.3.1/itpp/CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:/itpp-4.3.1/itpp/CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule F:/itpp-4.3.1/itpp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/itpp-4.3.1/itpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/itpp-4.3.1 -BF:/itpp-4.3.1/build --check-stamp-file F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/itpp-4.3.1 -BF:/itpp-4.3.1/build --check-stamp-file F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:/itpp-4.3.1/itpp/CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:/itpp-4.3.1/itpp/CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;F:\itpp-4.3.1\itpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\itpp-4.3.1\build\itpp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\binary.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\binfile.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\converters.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\copy_vector.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\fastmath.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\gf2mat.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\help_functions.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\itassert.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\itcompat.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\itfile.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\mat.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\matfunc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\operators.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\parser.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\random.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\smat.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\specmat.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\svec.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\timing.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\vec.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\cholesky.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\det.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\eigen.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\inv.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\ls_solve.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\lu.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\qr.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\schur.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\algebra\svd.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\airy.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\chbevl.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\gamma.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\hyperg.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\i0.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\i1.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\iv.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\jv.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\k0.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\k1.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\kn.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\polevl.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\bessel\struve.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\math\elem_math.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\math\error.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\math\integration.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\math\log_exp.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\math\misc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\base\math\trig_hyp.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\bch.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\channel.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\commfunc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\convcode.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\crc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\egolay.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\error_counters.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\exit.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\galois.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\hammcode.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\interleave.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\ldpc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\llr.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\modulator.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\modulator_nd.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\multilateration.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\ofdm.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\pulse_shape.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\punct_convcode.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\rec_syst_conv_code.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\reedsolomon.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\sequence.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\siso_dem.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\siso_eq.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\siso_mud.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\siso_nsc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\siso_rsc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\spread.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\stc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\comm\turbo.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\fixed\cfix.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\fixed\cfixed.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\fixed\fix.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\fixed\fixed.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\fixed\fix_base.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\fixed\fix_factory.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\fixed\fix_functions.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\fixed\fix_operators.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\optim\newton_search.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\protocol\events.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\protocol\front_drop_queue.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\protocol\packet_channel.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\protocol\packet_generator.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\protocol\selective_repeat.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\protocol\tcp.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\fastica.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\filter.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\filter_design.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\freq_filt.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\poly.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\resampling.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\sigfun.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\source.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\transforms.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\signal\window.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\srccode\audiofile.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\srccode\g711.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\srccode\gmm.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\srccode\lpcfunc.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\srccode\pnm.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\srccode\vq.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\srccode\vqtrain.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\stat\misc_stat.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\stat\mog_diag.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\stat\mog_diag_em.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\stat\mog_diag_kmeans.cpp" />
+    <ClCompile Include="F:\itpp-4.3.1\itpp\stat\mog_generic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:/itpp-4.3.1/build/ZERO_CHECK.vcxproj">
+      <Project>1731C6A1-1ECD-4447-9CFE-FDB6385D3CD1</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

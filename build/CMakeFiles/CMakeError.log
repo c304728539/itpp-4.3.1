@@ -1,0 +1,452 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1432653227.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:31。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1432653227.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1432653227.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1432653227.dir\Debug\cmTryCom.ABC4868B.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1432653227.dir\Debug\cmTryCom.ABC4868B.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1432653227.dir\Debug\\" /Fd"cmTryCompileExec1432653227.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1432653227.dir\Debug\\" /Fd"cmTryCompileExec1432653227.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1432653227.vcxproj]
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1432653227.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1432653227.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1432653227.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.57
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h;time.h exist failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1668141857.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:34。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1668141857.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1668141857.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1668141857.dir\Debug\cmTryCom.A06F622D.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1668141857.dir\Debug\cmTryCom.A06F622D.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1668141857.dir\Debug\\" /Fd"cmTryCompileExec1668141857.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1668141857.dir\Debug\\" /Fd"cmTryCompileExec1668141857.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1668141857.vcxproj]
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1668141857.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1668141857.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1668141857.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.45
+
+Source:
+/* */
+#include <sys/time.h>
+#include <time.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3036039145.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:35。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3036039145.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3036039145.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3036039145.dir\Debug\cmTryCom.C28E54B6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3036039145.dir\Debug\cmTryCom.C28E54B6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3036039145.dir\Debug\\" /Fd"cmTryCompileExec3036039145.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3036039145.dir\Debug\\" /Fd"cmTryCompileExec3036039145.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3036039145.vcxproj]
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3036039145.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3036039145.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3036039145.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.43
+
+
+Determining if the include file ieeefp.h exists failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2232057549.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:36。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2232057549.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2232057549.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2232057549.dir\Debug\cmTryCom.64AD2B37.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2232057549.dir\Debug\cmTryCom.64AD2B37.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2232057549.dir\Debug\\" /Fd"cmTryCompileExec2232057549.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2232057549.dir\Debug\\" /Fd"cmTryCompileExec2232057549.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “ieeefp.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2232057549.vcxproj]
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2232057549.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2232057549.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “ieeefp.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2232057549.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.43
+
+
+Determining if the include file strings.h exists failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2902293988.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:41。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2902293988.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2902293988.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2902293988.dir\Debug\cmTryCom.FF153807.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2902293988.dir\Debug\cmTryCom.FF153807.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2902293988.dir\Debug\\" /Fd"cmTryCompileExec2902293988.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2902293988.dir\Debug\\" /Fd"cmTryCompileExec2902293988.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2902293988.vcxproj]
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2902293988.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2902293988.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “strings.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2902293988.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.43
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec665548865.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:45。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec665548865.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec665548865.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec665548865.dir\Debug\cmTryCom.64046EB0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec665548865.dir\Debug\cmTryCom.64046EB0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec665548865.dir\Debug\\" /Fd"cmTryCompileExec665548865.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec665548865.dir\Debug\\" /Fd"cmTryCompileExec665548865.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec665548865.vcxproj]
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec665548865.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec665548865.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec665548865.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.43
+
+
+Determining if the isfinite exist failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1673360245.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:50。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1673360245.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1673360245.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1673360245.dir\Debug\cmTryCom.9B722650.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1673360245.dir\Debug\cmTryCom.9B722650.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1673360245.dir\Debug\\" /Fd"cmTryCompileExec1673360245.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1673360245.dir\Debug\\" /Fd"cmTryCompileExec1673360245.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  
+  CheckSymbolExists.cxx
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2440: “类型转换”: 无法从“bool (__cdecl *)(_Ty)”转换为“int *” [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1673360245.vcxproj]
+          上下文不允许消除重载函数的歧义
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1673360245.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1673360245.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2440: “类型转换”: 无法从“bool (__cdecl *)(_Ty)”转换为“int *” [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1673360245.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.46
+
+File F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isfinite
+  return ((int*)(&isfinite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isinf exist failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1712797930.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:50。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1712797930.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1712797930.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1712797930.dir\Debug\cmTryCom.55A23D96.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1712797930.dir\Debug\cmTryCom.55A23D96.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1712797930.dir\Debug\\" /Fd"cmTryCompileExec1712797930.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec1712797930.dir\Debug\\" /Fd"cmTryCompileExec1712797930.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  
+  CheckSymbolExists.cxx
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2440: “类型转换”: 无法从“bool (__cdecl *)(_Ty)”转换为“int *” [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1712797930.vcxproj]
+          上下文不允许消除重载函数的歧义
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1712797930.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1712797930.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2440: “类型转换”: 无法从“bool (__cdecl *)(_Ty)”转换为“int *” [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1712797930.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.46
+
+File F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec620681419.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:51。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec620681419.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec620681419.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec620681419.dir\Debug\cmTryCom.B1004BA1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec620681419.dir\Debug\cmTryCom.B1004BA1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec620681419.dir\Debug\\" /Fd"cmTryCompileExec620681419.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec620681419.dir\Debug\\" /Fd"cmTryCompileExec620681419.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  
+  CheckSymbolExists.cxx
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2440: “类型转换”: 无法从“bool (__cdecl *)(_Ty)”转换为“int *” [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec620681419.vcxproj]
+          上下文不允许消除重载函数的歧义
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec620681419.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec620681419.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2440: “类型转换”: 无法从“bool (__cdecl *)(_Ty)”转换为“int *” [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec620681419.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.46
+
+File F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the signgam exist failed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec580445303.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:52。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec580445303.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec580445303.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec580445303.dir\Debug\cmTryCom.CFD424C0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec580445303.dir\Debug\cmTryCom.CFD424C0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec580445303.dir\Debug\\" /Fd"cmTryCompileExec580445303.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec580445303.dir\Debug\\" /Fd"cmTryCompileExec580445303.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx"
+  
+  CheckSymbolExists.cxx
+F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: “signgam”: 未声明的标识符 [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec580445303.vcxproj]
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec580445303.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec580445303.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckSymbolExists.cxx(8): error C2065: “signgam”: 未声明的标识符 [F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec580445303.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.48
+
+File F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <cmath>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef signgam
+  return ((int*)(&signgam))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

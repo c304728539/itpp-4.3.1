@@ -1,0 +1,773 @@
+The system is: Windows - 6.2 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:21。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\3.2.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.34
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "F:/itpp-4.3.1/build/CMakeFiles/3.2.2/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:23。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdCXX.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\3.2.2\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdCXX.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "F:/itpp-4.3.1/build/CMakeFiles/3.2.2/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3894758729.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:25。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3894758729.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3894758729.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3894758729.dir\Debug\cmTryCom.37360719.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3894758729.dir\Debug\cmTryCom.37360719.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3894758729.dir\Debug\\" /Fd"cmTryCompileExec3894758729.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3894758729.dir\Debug\\" /Fd"cmTryCompileExec3894758729.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3894758729.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3894758729.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3894758729.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3894758729.dir\Debug\testCCompiler.obj
+  cmTryCompileExec3894758729.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3894758729.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3894758729.dir\Debug\cmTryCom.37360719.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3894758729.dir\Debug\cmTryCom.37360719.tlog\cmTryCompileExec3894758729.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3894758729.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.20
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3532145102.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:26。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3532145102.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3532145102.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3532145102.dir\Debug\cmTryCom.8E9ECE0A.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3532145102.dir\Debug\cmTryCom.8E9ECE0A.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3532145102.dir\Debug\\" /Fd"cmTryCompileExec3532145102.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3532145102.dir\Debug\\" /Fd"cmTryCompileExec3532145102.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3532145102.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3532145102.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3532145102.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3532145102.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec3532145102.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3532145102.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3532145102.dir\Debug\cmTryCom.8E9ECE0A.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3532145102.dir\Debug\cmTryCom.8E9ECE0A.tlog\cmTryCompileExec3532145102.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3532145102.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.87
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1519177376.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:27。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1519177376.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1519177376.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1519177376.dir\Debug\cmTryCom.217A4420.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1519177376.dir\Debug\cmTryCom.217A4420.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1519177376.dir\Debug\\" /Fd"cmTryCompileExec1519177376.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1519177376.dir\Debug\\" /Fd"cmTryCompileExec1519177376.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1519177376.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1519177376.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1519177376.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1519177376.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec1519177376.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1519177376.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1519177376.dir\Debug\cmTryCom.217A4420.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec1519177376.dir\Debug\cmTryCom.217A4420.tlog\cmTryCompileExec1519177376.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1519177376.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3485324527.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:28。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3485324527.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3485324527.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3485324527.dir\Debug\cmTryCom.E4E32F66.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3485324527.dir\Debug\cmTryCom.E4E32F66.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3485324527.dir\Debug\\" /Fd"cmTryCompileExec3485324527.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec3485324527.dir\Debug\\" /Fd"cmTryCompileExec3485324527.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3485324527.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3485324527.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3485324527.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3485324527.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec3485324527.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3485324527.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3485324527.dir\Debug\cmTryCom.E4E32F66.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3485324527.dir\Debug\cmTryCom.E4E32F66.tlog\cmTryCompileExec3485324527.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3485324527.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.87
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1258144409.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:30。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1258144409.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1258144409.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1258144409.dir\Debug\cmTryCom.2B311252.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1258144409.dir\Debug\cmTryCom.2B311252.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1258144409.dir\Debug\\" /Fd"cmTryCompileExec1258144409.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\feature_tests.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1258144409.dir\Debug\\" /Fd"cmTryCompileExec1258144409.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1258144409.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1258144409.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1258144409.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1258144409.dir\Debug\feature_tests.obj
+  cmTryCompileExec1258144409.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1258144409.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1258144409.dir\Debug\cmTryCom.2B311252.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec1258144409.dir\Debug\cmTryCom.2B311252.tlog\cmTryCompileExec1258144409.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1258144409.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.90
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Performing C SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1436840446.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:32。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1436840446.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1436840446.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1436840446.dir\Debug\cmTryCom.FDD8B022.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1436840446.dir\Debug\cmTryCom.FDD8B022.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec1436840446.dir\Debug\\" /Fd"cmTryCompileExec1436840446.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\src.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"cmTryCompileExec1436840446.dir\Debug\\" /Fd"cmTryCompileExec1436840446.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\src.c"
+  
+  src.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1436840446.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1436840446.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1436840446.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1436840446.dir\Debug\src.obj
+  cmTryCompileExec1436840446.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1436840446.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1436840446.dir\Debug\cmTryCom.FDD8B022.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec1436840446.dir\Debug\cmTryCom.FDD8B022.tlog\cmTryCompileExec1436840446.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1436840446.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.93
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Performing C++ SOURCE FILE Test OpenMP_FLAG_DETECTED succeded with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3641127627.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:33。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3641127627.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3641127627.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3641127627.dir\Debug\cmTryCom.EDE0E37E.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3641127627.dir\Debug\cmTryCom.EDE0E37E.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3641127627.dir\Debug\\" /Fd"cmTryCompileExec3641127627.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\src.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D OpenMP_FLAG_DETECTED /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3641127627.dir\Debug\\" /Fd"cmTryCompileExec3641127627.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3641127627.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3641127627.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3641127627.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3641127627.dir\Debug\src.obj
+  cmTryCompileExec3641127627.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3641127627.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3641127627.dir\Debug\cmTryCom.EDE0E37E.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3641127627.dir\Debug\cmTryCom.EDE0E37E.tlog\cmTryCompileExec3641127627.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3641127627.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+Source file was:
+
+#include <omp.h>
+int main() {
+#ifdef _OPENMP
+  return 0;
+#else
+  breaks_on_purpose
+#endif
+}
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3796279167.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:36。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3796279167.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3796279167.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3796279167.dir\Debug\cmTryCom.D26AC71E.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3796279167.dir\Debug\cmTryCom.D26AC71E.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3796279167.dir\Debug\\" /Fd"cmTryCompileExec3796279167.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3796279167.dir\Debug\\" /Fd"cmTryCompileExec3796279167.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3796279167.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3796279167.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3796279167.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3796279167.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3796279167.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3796279167.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3796279167.dir\Debug\cmTryCom.D26AC71E.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3796279167.dir\Debug\cmTryCom.D26AC71E.tlog\cmTryCompileExec3796279167.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3796279167.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.95
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4145855387.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:37。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec4145855387.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec4145855387.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec4145855387.dir\Debug\cmTryCom.DCFE9BEA.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec4145855387.dir\Debug\cmTryCom.DCFE9BEA.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4145855387.dir\Debug\\" /Fd"cmTryCompileExec4145855387.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4145855387.dir\Debug\\" /Fd"cmTryCompileExec4145855387.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4145855387.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4145855387.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4145855387.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4145855387.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec4145855387.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4145855387.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec4145855387.dir\Debug\cmTryCom.DCFE9BEA.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec4145855387.dir\Debug\cmTryCom.DCFE9BEA.tlog\cmTryCompileExec4145855387.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec4145855387.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.93
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2832033456.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:39。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2832033456.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2832033456.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2832033456.dir\Debug\cmTryCom.FA2D8673.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2832033456.dir\Debug\cmTryCom.FA2D8673.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2832033456.dir\Debug\\" /Fd"cmTryCompileExec2832033456.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2832033456.dir\Debug\\" /Fd"cmTryCompileExec2832033456.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2832033456.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2832033456.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2832033456.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2832033456.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec2832033456.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2832033456.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec2832033456.dir\Debug\cmTryCom.FA2D8673.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec2832033456.dir\Debug\cmTryCom.FA2D8673.tlog\cmTryCompileExec2832033456.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2832033456.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1595195005.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:40。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1595195005.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec1595195005.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec1595195005.dir\Debug\cmTryCom.3B49DF22.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec1595195005.dir\Debug\cmTryCom.3B49DF22.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1595195005.dir\Debug\\" /Fd"cmTryCompileExec1595195005.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1595195005.dir\Debug\\" /Fd"cmTryCompileExec1595195005.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1595195005.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1595195005.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1595195005.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1595195005.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1595195005.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1595195005.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec1595195005.dir\Debug\cmTryCom.3B49DF22.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec1595195005.dir\Debug\cmTryCom.3B49DF22.tlog\cmTryCompileExec1595195005.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec1595195005.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.89
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3930448424.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:42。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3930448424.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3930448424.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3930448424.dir\Debug\cmTryCom.830F4290.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3930448424.dir\Debug\cmTryCom.830F4290.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3930448424.dir\Debug\\" /Fd"cmTryCompileExec3930448424.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3930448424.dir\Debug\\" /Fd"cmTryCompileExec3930448424.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3930448424.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3930448424.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3930448424.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3930448424.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3930448424.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3930448424.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3930448424.dir\Debug\cmTryCom.830F4290.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3930448424.dir\Debug\cmTryCom.830F4290.tlog\cmTryCompileExec3930448424.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3930448424.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.84
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2407612308.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:43。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2407612308.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec2407612308.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec2407612308.dir\Debug\cmTryCom.DFC7FEA7.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec2407612308.dir\Debug\cmTryCom.DFC7FEA7.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2407612308.dir\Debug\\" /Fd"cmTryCompileExec2407612308.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2407612308.dir\Debug\\" /Fd"cmTryCompileExec2407612308.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2407612308.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2407612308.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2407612308.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2407612308.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec2407612308.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2407612308.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec2407612308.dir\Debug\cmTryCom.DFC7FEA7.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec2407612308.dir\Debug\cmTryCom.DFC7FEA7.tlog\cmTryCompileExec2407612308.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec2407612308.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.93
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3953657769.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:44。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3953657769.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3953657769.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3953657769.dir\Debug\cmTryCom.9043D121.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3953657769.dir\Debug\cmTryCom.9043D121.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3953657769.dir\Debug\\" /Fd"cmTryCompileExec3953657769.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3953657769.dir\Debug\\" /Fd"cmTryCompileExec3953657769.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3953657769.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3953657769.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3953657769.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3953657769.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3953657769.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3953657769.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3953657769.dir\Debug\cmTryCom.9043D121.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3953657769.dir\Debug\cmTryCom.9043D121.tlog\cmTryCompileExec3953657769.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3953657769.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.85
+
+
+Determining if the include file cmath exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3777620096.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:46。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3777620096.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3777620096.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3777620096.dir\Debug\cmTryCom.8B3C1E70.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3777620096.dir\Debug\cmTryCom.8B3C1E70.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3777620096.dir\Debug\\" /Fd"cmTryCompileExec3777620096.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3777620096.dir\Debug\\" /Fd"cmTryCompileExec3777620096.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  
+  CheckIncludeFile.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3777620096.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3777620096.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3777620096.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3777620096.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3777620096.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3777620096.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3777620096.dir\Debug\cmTryCom.8B3C1E70.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3777620096.dir\Debug\cmTryCom.8B3C1E70.tlog\cmTryCompileExec3777620096.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3777620096.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.07
+
+
+Determining if the include file complex exists passed with the following output:
+Change Dir: F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3891537970.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.40629.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/2/7 13:42:47。
+节点 1 上的项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3891537970.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTryCompileExec3891537970.dir\Debug\”。
+  正在创建目录“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTryCompileExec3891537970.dir\Debug\cmTryCom.408BB049.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTryCompileExec3891537970.dir\Debug\cmTryCom.408BB049.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3891537970.dir\Debug\\" /Fd"cmTryCompileExec3891537970.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.40629 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /openmp /Fo"cmTryCompileExec3891537970.dir\Debug\\" /Fd"cmTryCompileExec3891537970.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\CheckIncludeFile.cxx"
+  
+  CheckIncludeFile.cxx
+Link:
+  D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3891537970.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3891537970.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/itpp-4.3.1/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3891537970.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3891537970.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3891537970.vcxproj -> F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3891537970.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTryCompileExec3891537970.dir\Debug\cmTryCom.408BB049.tlog\unsuccessfulbuild”。
+  正在对“cmTryCompileExec3891537970.dir\Debug\cmTryCom.408BB049.tlog\cmTryCompileExec3891537970.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\itpp-4.3.1\build\CMakeFiles\CMakeTmp\cmTryCompileExec3891537970.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:02.54
+
+
